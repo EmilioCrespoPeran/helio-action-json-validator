@@ -15,7 +15,7 @@ import helio.blueprints.exceptions.ActionException;
  * @author Emilio
  * 
  */
-public class JsonValidatorAction implements Action {
+public class JsonValidator implements Action {
 
 	@Override
 	public void configure(JsonObject configuration) {}
