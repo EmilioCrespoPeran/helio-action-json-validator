@@ -1,5 +1,6 @@
 package helio.actions.validator;
 
+import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
@@ -24,7 +25,7 @@ public class JsonValidatorAction implements Action {
 	public String run(String values) throws ActionException {
 		JsonObject response = new JsonObject();
 		try {
-			JsonParser.parseString(values).getAsJsonObject().toString();
+			JsonElement e = JsonParser.parseString(values);
 			response.addProperty("status", "ok");
 		}
 		catch (Exception e) {
