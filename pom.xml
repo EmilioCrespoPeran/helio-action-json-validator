@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>io.github.helio-ecosystem</groupId>
 	<artifactId>helio-action-json-validator</artifactId>
-	<version>0.1.0</version>
+	<version>0.1.1</version>
 	<name>JSON validator action</name>
 	<description>This validator action allows you to verify a valid JSON documents</description>
 
