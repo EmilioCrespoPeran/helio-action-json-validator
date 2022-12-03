@@ -8,7 +8,7 @@ Use the following coordinates for importer the JSON validator action as an exter
 
 ```json
 {
-    "source": "https://github.com/helio-ecosystem/helio-action-json-validator/releases/download/v0.1.0/helio-action-json-validator-0.1.0.jar",
+    "source": "https://github.com/helio-ecosystem/helio-action-json-validator/releases/download/v0.1.1/helio-action-json-validator-0.1.1.jar",
     "clazz": "helio.actions.validator.JsonValidator",
     "type": "ACTION"
 }
