@@ -7,11 +7,11 @@ import org.junit.Test;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
-import helio.actions.validator.JsonValidatorAction;
+import helio.actions.validator.JsonValidator;
 
 public class JsonValidatorTests {
 
-    private JsonValidatorAction validator = new JsonValidatorAction();
+    private JsonValidator validator = new JsonValidator();
 
     @Test
     public void test01_validateJsonObject() throws Exception {

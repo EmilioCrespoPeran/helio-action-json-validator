@@ -25,7 +25,7 @@ public class JsonValidator implements Action {
 	public String run(String values) throws ActionException {
 		JsonObject response = new JsonObject();
 		try {
-			JsonElement e = JsonParser.parseString(values);
+			JsonParser.parseString(values);
 			response.addProperty("status", "ok");
 		}
 		catch (Exception e) {
